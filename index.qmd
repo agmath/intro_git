@@ -260,11 +260,6 @@ In the repository you are *not* a member of, make a fork:
 - In the box, click "Create Fork"
 
 
-## Cons of Sharing your code
-
-- Impostor syndrome
-- Criticism of your code
-- 
 
 
 ## What is a Repository?
