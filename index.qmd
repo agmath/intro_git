@@ -1,36 +1,82 @@
 ---
-title: "Learning Git"
+title: "Learning Git and GitHub"
 format: revealjs
 ---
 
+## Who is this workshop for?
+
+- Those who want a basic understanding of the version control process
+- Those who want to understand how open source collaboration works
+- Those who need to build a mental model
+
+. . .
+
+Not for:
+
+- People who already use Git on the command line (you already have the mental model)
+- Impatient people
+
 ## Learning Objectives
 
-- **Explain** the reasons we use repositories
-- **Explain** version control and 
-- **Utilize** branching in your work
-- 
+By the end of this workshop, you will be able to:
 
+- **Explain** the reasons we use repositories
+- **Explain** how version control tracks changes in your work
+- **Make** a branch in a repository
+- **Make** a fork of a repository that you don't own
+- **Make** contributions to a repository using pull requests 
+
+## Reminder: Be gentle with yourself and others
+
+- [Participation Guidelines](https://hutchdatascience.org/communitystudios/guidelines/)
+- We are all learning together
+- We all learn at different paces
+- Asking questions is a way of taking care of others
+
+## Our focus today is on concepts
+
+- Intermediate Git is much more about how you do it
 
 ## Reproducibility and the Research Lifecycle
 
-![](research-cycle-eaf698fd0d1a6927d2a3292efd524df1.svg)
+![](research-cycle-eaf698fd0d1a6927d2a3292efd524df1.svg){width=700}
+
+::: aside
 [The Turing Way Community](https://doi.org/10.5281/ZENODO.3332807)
+:::
+
+## Benefits of Storing your code in a Repo
+
+- Centralized code
+- Other people outside your lab can use it
+- The ability to roll back changes that broke your code
+- Recognition for your work
+- Supportive community that can help you learn and improve it
+
 
 ## It's Tough being Open
 
-![](make-ok-to-be-human-adfed37c7f9fe42485a1e3e6ad869a2b.png)
+![](make-ok-to-be-human-adfed37c7f9fe42485a1e3e6ad869a2b.png){width=700}
 
-
-[Illustration by The Ludic Group LLP from Kirstie Whitaker’s keynote presentation at Scientific Data in 2017. Used under a CC-BY 4.0 license](https://doi.org/10.6084/M9.FIGSHARE.5577340.V1)
+::: aside
+[Scientific Data in 2017. Used under a CC-BY 4.0 license](https://doi.org/10.6084/M9.FIGSHARE.5577340.V1)
+:::
 
 ## But it's also rewarding
 
-![](help-you-of-the-futu-1d37c78e2b60bc56e20c20be250182b5.png)
-[Illustration by The Ludic Group LLP from Kirstie Whitaker’s keynote presentation at Scientific Data in 2017. Used under a CC-BY 4.0 license](https://doi.org/10.6084/M9.FIGSHARE.5577340.V1)
+![](help-you-of-the-futu-1d37c78e2b60bc56e20c20be250182b5.png){width=700}
+
+::: aside
+[Scientific Data in 2017. Used under a CC-BY 4.0 license](https://doi.org/10.6084/M9.FIGSHARE.5577340.V1)
+:::
 
 ## Version Control
 
-> Version control is a systematic approach to record changes made in a file, or set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later when needed. - [The Turing Way](https://book.the-turing-way.org/reproducible-research/vcs/vcs-workflow)
+> Version control is a systematic approach to record changes made in a file, or set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later when needed.  
+
+::: aside
+[The Turing Way](https://book.the-turing-way.org/reproducible-research/vcs/vcs-workflow)
+:::
 
 ## Ways we work with version control 
 
@@ -38,19 +84,25 @@ format: revealjs
 - As a member of a GitHub repository
 - As an external collaborator of a GitHub repository
 
-## Version Control Workflow (by ourselves){.incremental=true}
+## Version Control Workflow (by ourselves)
 
 1. Create files - these may contain text, code or both.
 2. Work on these files, by changing, deleting or adding new content.
 3. Create a snapshot of the file status (also known as version) at this time.
 4. Document what was changed in the version history of that file.
 
+::: aside
+[The Turing Way](https://book.the-turing-way.org/reproducible-research/vcs/vcs-workflow)
+:::
+
 ## You probably already do a version of this:
 
 ![](git_motivation.png)
+
 ## Git is a formal way of tracking changes
 
 - Each "save" is called a **commit**
+- Basically a snapshot of the file at that moment in time
 - We have one file, but many versions of that file
 - We only track changes in the file, not save the entire file
 
@@ -67,49 +119,146 @@ Git only tracks what's changed between commits (called a **diff**):
 
 ## We can fix mistakes
 
+- What if we made a mistake in code?
 - We can **roll back** changes associated with a commit
-
 
 ## Exercise: Look at a commit history
 
-- Go to this github page:
+- Go to this github page: 
+- Click on `README.md`
+- Click on `history` (in top right of page)
 
+## More about commits
 
+- Commits have a **message**
+- Commits can be done for multiple files at once
+
+## There is an intermediate step: staging
+
+- Exists to bundle multiple changes to a single commit:
+
+![](staging.png)
+
+::: aside
+<https://git-scm.com/about/staging-area>
+:::
 
 ## Ways we work in a repository
 
 - By ourselves (sole developer)
-- As a member of a GitHub repository
+- **As a member of a GitHub repository**
 - As an external collaborator of a GitHub repository
-
-## Branches are isolated versions of the original repository
-
-![](one-branch-9bf2286640c44169cd8255c9d4264780.png) 
-
-
 
 ## Git / GitHub is a way for multiple developers to work together
 
-- Multiple people can work on their own versions of the code called branches
+- Everything we've done so far we've done by ourselves
+- The key with Git/GitHub is that multiple people can work on a repository at once
+
+## What is the difference between Git / GitHub?
+
+- Git is the software that does version control
+- GitHub is the website that hosts repositories and it uses Git
+
+## How do we do this? 
+
+- Multiple people can work on their own versions of the code called **branches**
 - Developers can work on different features on the same code
 - Needs a reconciliation process (pull requests/merging)
 
+## Branches are isolated versions of the original repository
+
+![](one-branch.png) 
+
+## When in doubt, branch
+
+- Before you make big changes, make a branch
+
+## Exercise: Add a Recipe to our Cookbook Repository!
+
+- Everyone is a member of one of two repositories
+  - cookbook_a
+  - cookbook_b
+- Make your own branch:
+  - Click 
+- Create a file by:
+  - click +
+  - click "Add New File"
+  - Make a file name, like "tomato_soup.txt"
+  - Add your recipe!
+
+## Now comes the hard part
+
+- Integrating the changes
+
+
+## Make a Pull Request
+
+- A **pull request** is a formal request to merge your code changes into the history
+- Someone (the owner) needs to merge your changes after a request
+
+## Exercise: Make a Pull Request
+
+- In your branch, click on "Pull Requests"
+- Click on "New Pull Request"
+- Set it up like below:
+
+main <--- my_branch
+- Click "Create pull request"
+
+## Reconciliation of Branches (merging)
+
+![](one-branch-9bf2286640c44169cd8255c9d4264780.png)
+
+- Need to integrate changes in branches together
+- This is called a **merge**
+
+## Who's responsible for merging?
+
+- Repository Owner 
+  - Could be program manager of a group
+  - Could be software engineer
+- It is a big responsibility
+  - Need to ensure that merge doesn't break things
+  - Need to make sure that merges don't conflict
+
+## Merging process
+
+- Manual review process
+  - May submit reviews
+  - May submit approvals
+  - May deny the pull request
+
+# Merging Demo
+
+
+## Please Merge Before I Start Crying
+
+![](git_merge2.png)
+## Ways we work in a repository
+
+- By ourselves (sole developer)
+- As a member of a GitHub repository
+- **As an external collaborator of a GitHub repository**
+
 ## GitHub lets you contribute to code, even if you aren't a member
 
+- You can still contribute to code you don't own
+  - Open source is built on collaborations
+- You can do this by making a *fork* of the code
+
+## Forks
+  
 - Your version of the code is called a *fork* - it belongs to you
+  - Like an external *branch*
 - Can submit your changes to the code through a pull request
 
-## Tour of a repository
+## Exercise: Make a fork
 
+In the repository you are *not* a member of, make a fork:
 
+- Click the "Fork" button (not the down arrow)
+- In the box, click "Create Fork"
 
-## Benefits of Storing your code in a Repo
-
-- Centralized code
-- Other people outside your lab can use it
-- The ability to roll back changes that broke your code
-- Recognition for your work
-- Supportive community that can help you learn and improve it
 
 ## Cons of Sharing your code
 
@@ -166,9 +315,10 @@ A repository is a structured way of storing code or text. It keeps track of each
 ## Essential concepts
 
 - Repository
+- Commit
+- Diff
 - Branch
 - Pull Request
-- Membership
 
 ### Create two repositories
 
