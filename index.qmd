@@ -1,0 +1,182 @@
+---
+title: "Learning Git"
+format: revealjs
+---
+
+## Learning Objectives
+
+- **Explain** the reasons we use repositories
+- **Explain** version control and 
+- **Utilize** branching in your work
+- 
+
+
+## Reproducibility and the Research Lifecycle
+
+![](research-cycle-eaf698fd0d1a6927d2a3292efd524df1.svg)
+[The Turing Way Community](https://doi.org/10.5281/ZENODO.3332807)
+
+## It's Tough being Open
+
+![](make-ok-to-be-human-adfed37c7f9fe42485a1e3e6ad869a2b.png)
+
+
+[Illustration by The Ludic Group LLP from Kirstie Whitaker’s keynote presentation at Scientific Data in 2017. Used under a CC-BY 4.0 license](https://doi.org/10.6084/M9.FIGSHARE.5577340.V1)
+
+## But it's also rewarding
+
+![](help-you-of-the-futu-1d37c78e2b60bc56e20c20be250182b5.png)
+[Illustration by The Ludic Group LLP from Kirstie Whitaker’s keynote presentation at Scientific Data in 2017. Used under a CC-BY 4.0 license](https://doi.org/10.6084/M9.FIGSHARE.5577340.V1)
+
+## Version Control
+
+> Version control is a systematic approach to record changes made in a file, or set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later when needed. - [The Turing Way](https://book.the-turing-way.org/reproducible-research/vcs/vcs-workflow)
+
+## Ways we work with version control 
+
+- **By ourselves (sole developer)**
+- As a member of a GitHub repository
+- As an external collaborator of a GitHub repository
+
+## Version Control Workflow (by ourselves){.incremental=true}
+
+1. Create files - these may contain text, code or both.
+2. Work on these files, by changing, deleting or adding new content.
+3. Create a snapshot of the file status (also known as version) at this time.
+4. Document what was changed in the version history of that file.
+
+## You probably already do a version of this:
+
+![](git_motivation.png)
+## Git is a formal way of tracking changes
+
+- Each "save" is called a **commit**
+- We have one file, but many versions of that file
+- We only track changes in the file, not save the entire file
+
+![](main-branch-bf6b49a2efd6b2dc9e311e7a666e2b52.png)
+
+## What's the diff-erence?
+
+Git only tracks what's changed between commits (called a **diff**):
+
+- Lines of code we add
+- Lines of code we delete
+
+![Diff Example]()
+
+## We can fix mistakes
+
+- We can **roll back** changes associated with a commit
+
+
+## Exercise: Look at a commit history
+
+- Go to this github page:
+
+
+
+## Ways we work in a repository
+
+- By ourselves (sole developer)
+- As a member of a GitHub repository
+- As an external collaborator of a GitHub repository
+
+## Branches are isolated versions of the original repository
+
+![](one-branch-9bf2286640c44169cd8255c9d4264780.png) 
+
+
+
+## Git / GitHub is a way for multiple developers to work together
+
+- Multiple people can work on their own versions of the code called branches
+- Developers can work on different features on the same code
+- Needs a reconciliation process (pull requests/merging)
+
+## GitHub lets you contribute to code, even if you aren't a member
+
+- Your version of the code is called a *fork* - it belongs to you
+- Can submit your changes to the code through a pull request
+
+## Tour of a repository
+
+
+
+## Benefits of Storing your code in a Repo
+
+- Centralized code
+- Other people outside your lab can use it
+- The ability to roll back changes that broke your code
+- Recognition for your work
+- Supportive community that can help you learn and improve it
+
+## Cons of Sharing your code
+
+- Impostor syndrome
+- Criticism of your code
+- 
+
+
+## What is a Repository?
+
+A repository is a structured way of storing code or text. It keeps track of each change that you make to the code, and it allows multiple people to work on versions of their code to combine them.
+
+
+## What is Usually Stored in a Repository?
+
+- Text 
+- Code
+- Webpages
+
+
+## Whats the difference between Git and GitHub?
+
+- Git is a program that allows you to work with local versions of your repositories
+- GitHub is a website that hosts your repository in a central location. It uses Git underneath, but it also has social parts to it as well.
+## Tour of a repository in GitHub
+
+- Biodev
+
+
+## How do we collaborate using a repo?
+
+- We all have copies of code in repo
+- These copies are not synced until we manually sync, they are separate
+- We can split off branches 
+- We can "check-in" changes we make to the code, and other people can "check out" these code changes
+- If two of us are modifying the same code, then we need to resolve these changes into a single set of changes
+
+# "Check ins" are called *commits*
+
+
+## Working together in a Repo
+
+- Make a branch for your own work
+- Making commits to your own branch
+- Resolving changes to the codebase
+
+## Branching
+
+- 
+
+## Pull Requests
+
+
+## Essential concepts
+
+- Repository
+- Branch
+- Pull Request
+- Membership
+
+### Create two repositories
+
+- Member of one, external to another
+- Contribute to your own
+- Contribute to someone else's, by PR 
+
+## Requirements
+
+- GitHub account (send me your userid)
+- 
