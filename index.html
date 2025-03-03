@@ -249,22 +249,16 @@
 <img data-src="main-branch-bf6b49a2efd6b2dc9e311e7a666e2b52.png" class="r-stretch"></section>
 <section id="whats-the-diff-erence" class="slide level2">
 <h2>What’s the diff-erence?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
 <p>Git only tracks what’s changed between commits (called a <strong>diff</strong>):</p>
 <ul>
 <li>Lines of code we add (+)</li>
 <li>Lines of code we delete (-)</li>
 </ul>
-</div><div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="diff.png"></p>
-<figcaption>Diff Example</figcaption>
-</figure>
-</div>
-</div></div>
 </section>
+<section id="diff-example" class="slide level2">
+<h2>Diff Example</h2>
+
+<img data-src="diff.png" width="800" class="r-stretch quarto-figure-center"><p class="caption">Diff Example</p></section>
 <section id="we-can-fix-mistakes" class="slide level2">
 <h2>We can fix mistakes</h2>
 <ul>
@@ -275,9 +269,7 @@
 <section id="exercise-look-at-a-commit-history" class="slide level2">
 <h2>Exercise: Look at a commit history</h2>
 <ul>
-<li><a href="https://github.com/tidyverse/ggplot2/">Click on ggplot2 github</a></li>
-<li>Click on Readme.md</li>
-<li>Click on “history”</li>
+<li><a href="exploring.html">Exploring Github Exercise</a></li>
 </ul>
 </section>
 <section id="more-about-commits" class="slide level2">
@@ -432,12 +424,7 @@
 </section>
 <section id="exercise-make-a-fork-and-add-a-recipe" class="slide level2">
 <h2>Exercise: Make a fork and add a recipe</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><embed data-src="forking.html"></p>
-<figcaption>Exercise: Make a Fork</figcaption>
-</figure>
-</div>
+<p><a href="forking.html">Exercise: Make a Fork</a></p>
 </section></section>
 <section>
 <section id="lets-try-a-reviewing-a-pull-request" class="title-slide slide level1 center">
@@ -765,6 +752,11 @@
             if (link.dataset.originalHref !== undefined) {
               link.href = link.dataset.originalHref;
             }
+              // target, if specified
+              link.setAttribute("target", "_blank");
+              if (link.getAttribute("rel") === null) {
+                link.setAttribute("rel", "noopener");
+              }
           }
         }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

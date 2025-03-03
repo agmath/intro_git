@@ -1,6 +1,8 @@
 ---
 title: "Learning Git and GitHub"
-format: revealjs
+format: 
+  revealjs:
+    link-external-newwindow: true
 ---
 
 ## Who is this workshop for?
@@ -110,21 +112,14 @@ By the end of this workshop, you will be able to:
 
 ## What's the diff-erence?
 
-::::{.columns}
-:::{.column width="50%"}
 Git only tracks what's changed between commits (called a **diff**):
 
 - Lines of code we add (+)
 - Lines of code we delete (-)
-:::
-:::{.column width="50%"}
-![Diff Example](diff.png)
 
-:::
-::::
+## Diff Example
 
-
-
+![Diff Example](diff.png){width=800}
 
 ## We can fix mistakes
 
@@ -133,9 +128,7 @@ Git only tracks what's changed between commits (called a **diff**):
 
 ## Exercise: Look at a commit history
 
-- [Click on ggplot2 github](https://github.com/tidyverse/ggplot2/)
-- Click on Readme.md
-- Click on "history"
+- [Exploring Github Exercise](exploring.html)
 
 ## More about commits
 
@@ -250,11 +243,10 @@ Everyone is a member of one of two repositories:
 
 ## Exercise: Make a fork and add a recipe
 
-![Exercise: Make a Fork](forking.html)
-
+[Exercise: Make a Fork](forking.html)
 
 # Let's try a reviewing a Pull Request
 
 ## Exercise: Review a Pull Request
 
-![](reviewing.qmd)
+[Reviewing a PR](reviewing.qmd)
