@@ -163,7 +163,21 @@ Git only tracks what's changed between commits (called a **diff**):
 ## What is the difference between Git / GitHub?
 
 - Git is the software that does version control
+  - Use it on our own machines with command line git, Git Desktop, RStudio, etc.
 - GitHub is the website that hosts repositories and it uses Git
+  - Hosted repository is also called the **remote**
+
+
+## Interacting with GitHub
+
+```{mermaid}
+graph LR
+  A[Our local machine] --git push ---> B
+  B["Remote Repo on GitHub"] --git pull--> A
+```
+
+- Updating the *remote* from our *local* is called a **push**
+- Updating the *local* from the *remote* is called a **pull**
 
 ## How do we do this? 
 

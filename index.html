@@ -120,6 +120,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="index_files/libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="index_files/libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="index_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -309,8 +312,35 @@
 <section id="what-is-the-difference-between-git-github" class="slide level2">
 <h2>What is the difference between Git / GitHub?</h2>
 <ul>
-<li class="fragment">Git is the software that does version control</li>
-<li class="fragment">GitHub is the website that hosts repositories and it uses Git</li>
+<li class="fragment">Git is the software that does version control
+<ul>
+<li class="fragment">Use it on our own machines with command line git, Git Desktop, RStudio, etc.</li>
+</ul></li>
+<li class="fragment">GitHub is the website that hosts repositories and it uses Git
+<ul>
+<li class="fragment">Hosted repository is also called the <strong>remote</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="interacting-with-github" class="slide level2">
+<h2>Interacting with GitHub</h2>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+  A[Our machine] --git push ---&gt; B
+  B["Remote Repo\n on GitHub"] --git pull--&gt; A
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<ul>
+<li class="fragment">Updating the <em>remote</em> from our <em>local</em> is called a <strong>push</strong></li>
+<li class="fragment">Updating the <em>local</em> from the <em>remote</em> is called a <strong>pull</strong></li>
 </ul>
 </section>
 <section id="how-do-we-do-this" class="slide level2">
