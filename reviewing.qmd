@@ -1,0 +1,17 @@
+---
+title: "Reviewing a PR"
+format: html
+---
+
+In the repository you are a member of, click on "Pull Requests":
+
+![](fork-pr1.png)
+
+Click on a Pull Request
+
+![](fork5-pr.png)
+
+1. Review the commit
+2. Merge the commit
+
+![](fork4-pr.png)
