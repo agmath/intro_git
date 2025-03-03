@@ -1,0 +1,33 @@
+---
+title: "Make a Branch Exercise"
+format: html
+---
+
+A. Click the "main" button to make a new branch
+
+![](branch1.png){width=500}
+
+B. 
+  1. Add your Branch Name
+  2. Click "Create branch from main"
+  
+![](branch2.png){width=500} 
+
+C. Click "Add File"
+
+![](branch3.png){width=500}
+
+D. Click "Create New File"
+
+![](branch4.png){width=500}
+
+E. 
+  1. Add a file name, such as "lentil_soup.txt" 
+  2. Add your recipe, 
+  3. Click "Commit Changes" 
+
+![](branch5.png){width=500}
+
+F. Click "Commit Changes" 
+
+![](branch6.png){width=500}
