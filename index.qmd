@@ -177,6 +177,8 @@ Git only tracks what's changed between commits (called a **diff**):
 
 ## Exercise: Add a Recipe to our Cookbook Repository!
 
+[Repository Member List](https://docs.google.com/spreadsheets/d/1CeSnF2_6YMJgcZvYDCgYZqk-YINx1cSKkSkBgVSvkwI/edit?gid=0#gid=0)
+
 Everyone is a member of one of two repositories:
 
   - [cookbook_a](https://github.com/fhdsl/cookbook_a)
@@ -243,10 +245,11 @@ Everyone is a member of one of two repositories:
 
 ## Exercise: Make a fork and add a recipe
 
-[Exercise: Make a Fork](forking.html)
+- [Repository Member List](https://docs.google.com/spreadsheets/d/1CeSnF2_6YMJgcZvYDCgYZqk-YINx1cSKkSkBgVSvkwI/edit?gid=0#gid=0)
+- [Exercise: Make a Fork](forking.html)
 
 # Let's try a reviewing a Pull Request
 
 ## Exercise: Review a Pull Request
-
-[Reviewing a PR](reviewing.qmd)
+- [Repository Member List](https://docs.google.com/spreadsheets/d/1CeSnF2_6YMJgcZvYDCgYZqk-YINx1cSKkSkBgVSvkwI/edit?gid=0#gid=0)
+- [Reviewing a PR](reviewing.qmd)
