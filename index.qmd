@@ -285,3 +285,9 @@ Hopefully you will now be able to
 - **Make** a branch in a repository
 - **Make** a fork of a repository that you don't own
 - **Make** contributions to a repository using pull requests 
+
+## Resources
+
+- [How Git Works](https://wizardzines.com/zines/git/)
+- [Happy Git With R](https://happygitwithr.com/)
+- [Please Merge Before I start Crying](https://www.youtube.com/watch?v=y2qdvYKKVdc)
