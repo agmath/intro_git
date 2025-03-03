@@ -1,0 +1,16 @@
+---
+title: "Exploring a Repository"
+format: html
+---
+
+A. In the [ggplot2 repository](https://github.com/tidyverse/ggplot2), click on "README.md":
+
+![](explore1.png)
+
+B. Click on "History" in the Top Right Corner
+
+![](explore2.png)
+
+C. Click on one of the commits and look at changes
+
+![](explore3.png)

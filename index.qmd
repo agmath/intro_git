@@ -110,19 +110,32 @@ By the end of this workshop, you will be able to:
 
 ## What's the diff-erence?
 
+::::{.columns}
+:::{.column width="50%"}
 Git only tracks what's changed between commits (called a **diff**):
 
-- Lines of code we add
-- Lines of code we delete
+- Lines of code we add (+)
+- Lines of code we delete (-)
+:::
+:::{.column width="50%"}
+![Diff Example](diff.png)
 
-![Diff Example]()
+:::
+::::
+
+
+
 
 ## We can fix mistakes
 
 - What if we made a mistake in code?
 - We can **roll back** changes associated with a commit
 
-# Exercise: Look at a commit history
+## Exercise: Look at a commit history
+
+- [Click on ggplot2 github](https://github.com/tidyverse/ggplot2/)
+- Click on Readme.md
+- Click on "history"
 
 ## More about commits
 
