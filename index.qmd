@@ -261,3 +261,13 @@ Everyone is a member of one of two repositories:
 ## Exercise: Review a Pull Request
 - [Repository Member List](https://docs.google.com/spreadsheets/d/1CeSnF2_6YMJgcZvYDCgYZqk-YINx1cSKkSkBgVSvkwI/edit?gid=0#gid=0)
 - [Reviewing a PR](reviewing.qmd)
+
+## Recap of What we did
+
+Hopefully you will now be able to
+
+- **Explain** the reasons we use repositories
+- **Explain** how version control tracks changes in your work
+- **Make** a branch in a repository
+- **Make** a fork of a repository that you don't own
+- **Make** contributions to a repository using pull requests 
