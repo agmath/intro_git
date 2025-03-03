@@ -1,0 +1,17 @@
+---
+title: "Make a Pull Request"
+format: html
+---
+
+A. 
+1. Click on "Pull Requests" at the top of the screen
+2. Click "Create Pull Requests"
+
+![](pr1.png)
+B. 
+
+1. Make sure your branch is in the right side
+2. Add a description of your change if you want
+3. Click "Create Pull Request"
+
+![](pr2.png) 

@@ -1,0 +1,17 @@
+---
+title: "Forking"
+format: html
+---
+
+A. Click the "Fork" button
+
+![](fork1.png)
+
+B. Click "Create Fork"
+
+![](fork2.png)
+
+C. Create a Pull Request
+
+![](fork3-pr.png)
+
