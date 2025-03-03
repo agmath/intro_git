@@ -3,6 +3,7 @@ title: "Learning Git and GitHub"
 format: 
   revealjs:
     link-external-newwindow: true
+    incremental: true
 ---
 
 ## Who is this workshop for?
@@ -41,7 +42,7 @@ By the end of this workshop, you will be able to:
 
 ## Reproducibility and the Research Lifecycle
 
-![](research-cycle-eaf698fd0d1a6927d2a3292efd524df1.svg){width=700}
+![](research-cycle-eaf698fd0d1a6927d2a3292efd524df1.svg){width=600}
 
 ::: aside
 [The Turing Way Community](https://doi.org/10.5281/ZENODO.3332807)
@@ -123,8 +124,10 @@ Git only tracks what's changed between commits (called a **diff**):
 
 ## We can fix mistakes
 
+![](main-branch-bf6b49a2efd6b2dc9e311e7a666e2b52.png)
+
 - What if we made a mistake in code?
-- We can **roll back** changes associated with a commit
+- We can **roll back** or **revert** changes associated with a commit
 
 ## Exercise: Look at a commit history
 
@@ -137,7 +140,8 @@ Git only tracks what's changed between commits (called a **diff**):
 
 ## There is an intermediate step: staging
 
-- Exists to bundle multiple changes to a single commit:
+- Exists to bundle multiple changes to a single commit
+- Is hidden in the web interface
 
 ![](staging.png)
 
@@ -170,6 +174,10 @@ Git only tracks what's changed between commits (called a **diff**):
 ## Branches are isolated versions of the original repository
 
 ![](one-branch.png) 
+
+## Many People Can Work on the Same Code
+
+![](sub-branch-591cc047cf4f699fc4652eae25e2745d.png)
 
 ## When in doubt, branch
 
