@@ -6,7 +6,7 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
   <title>Learning Git and GitHub</title>
@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-4b7f179142f17ca251a37dc34c50596b.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -124,7 +124,7 @@
   <script src="index_files/libs/quarto-diagram/mermaid-init.js"></script>
   <link href="index_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
-<body class="quarto-light">
+<body class="quarto-dark">
   <div class="reveal">
     <div class="slides">
 
@@ -377,12 +377,6 @@
 </ul>
 <p><a href="branching.html">Exercise: Add a Recipe</a></p>
 </section>
-<section id="now-comes-the-hard-part" class="slide level2">
-<h2>Now comes the hard part</h2>
-<ul>
-<li class="fragment">Integrating the changes from multiple branches</li>
-</ul>
-</section>
 <section id="make-a-pull-request" class="slide level2">
 <h2>Make a Pull Request</h2>
 <ul>
@@ -393,6 +387,12 @@
 <section id="exercise-make-a-pull-request" class="slide level2">
 <h2>Exercise: Make a Pull Request</h2>
 <p><a href="pr.html">Exercise: Make a Pull Request</a></p>
+</section>
+<section id="now-comes-the-hard-part" class="slide level2">
+<h2>Now comes the hard part</h2>
+<ul>
+<li class="fragment">Integrating the changes from multiple branches</li>
+</ul>
 </section>
 <section id="reconciliation-of-branches-merging" class="slide level2">
 <h2>Reconciliation of Branches (merging)</h2>
@@ -407,14 +407,28 @@
 <ul>
 <li class="fragment">Repository Owner
 <ul>
-<li class="fragment">Could be program manager of a group</li>
-<li class="fragment">Could be software engineer</li>
+<li class="fragment">Could be <em>program manager</em> of a group</li>
+<li class="fragment">Could be a <em>software engineer</em></li>
 </ul></li>
 <li class="fragment">It is a big responsibility
 <ul>
-<li class="fragment">Need to ensure that merge doesn’t break things</li>
-<li class="fragment">Need to make sure that merges don’t conflict</li>
+<li class="fragment">Need to ensure that merge doesn’t break things
+<ul>
+<li class="fragment">Use automated testing to ensure changes don’t break code</li>
 </ul></li>
+<li class="fragment">Need to make sure that merges don’t conflict
+<ul>
+<li class="fragment">Reconciling changes so that they work together</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="branchingmerging-works-because-of-communication" class="slide level2">
+<h2>Branching/Merging works because of communication</h2>
+<ul>
+<li class="fragment">You need to communicate with other developers which part of the code you’re working on</li>
+<li class="fragment">Partition out the tasks</li>
+<li class="fragment">Multiple developers working on the same part of the code can be difficult</li>
 </ul>
 </section>
 <section id="merging-process" class="slide level2">
@@ -458,6 +472,7 @@
 <li class="fragment">Your version of the code is called a <em>fork</em> - it belongs to you
 <ul>
 <li class="fragment">Like an external <em>branch</em></li>
+<li class="fragment">The fork belongs to you</li>
 </ul></li>
 <li class="fragment">Can submit your changes to the code through a <em>pull request</em> to the original repository:</li>
 </ul>
@@ -485,6 +500,7 @@
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="owl-logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>

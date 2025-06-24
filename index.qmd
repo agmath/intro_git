@@ -210,11 +210,6 @@ Everyone is a member of this repository:
 
 [Exercise: Add a Recipe](branching.html)
 
-## Now comes the hard part
-
-- Integrating the changes from multiple branches
-
-
 ## Make a Pull Request
 
 - A **pull request** is a formal request to merge your code changes into the history
@@ -223,6 +218,10 @@ Everyone is a member of this repository:
 ## Exercise: Make a Pull Request
 
 [Exercise: Make a Pull Request](pr.html)
+
+## Now comes the hard part
+
+- Integrating the changes from multiple branches
 
 ## Reconciliation of Branches (merging)
 
@@ -234,11 +233,19 @@ Everyone is a member of this repository:
 ## Who's responsible for merging?
 
 - Repository Owner 
-  - Could be program manager of a group
-  - Could be software engineer
+  - Could be *program manager* of a group
+  - Could be a *software engineer*
 - It is a big responsibility
   - Need to ensure that merge doesn't break things
+    - Use automated testing to ensure changes don't break code
   - Need to make sure that merges don't conflict
+    - Reconciling changes so that they work together
+    
+## Branching/Merging works because of communication
+
+- You need to communicate with other developers which part of the code you're working on
+- Partition out the tasks
+- Multiple developers working on the same part of the code can be difficult
 
 ## Merging process
 
@@ -266,6 +273,7 @@ Everyone is a member of this repository:
   
 - Your version of the code is called a *fork* - it belongs to you
   - Like an external *branch*
+  - The fork belongs to you
 - Can submit your changes to the code through a *pull request* to the original repository:
 
 ![](fork6-pr.jpg)
