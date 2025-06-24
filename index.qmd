@@ -171,6 +171,7 @@ Git only tracks what's changed between commits (called a **diff**):
 ## Interacting with GitHub
 
 ```{mermaid}
+%%| echo: false
 graph LR
   A[Our local machine] --git push ---> B
   B["Remote Repo on GitHub"] --git pull--> A
@@ -191,6 +192,8 @@ graph LR
 
 ## Many People Can Work on the Same Code
 
+- Working on different branches
+
 ![](sub-branch-591cc047cf4f699fc4652eae25e2745d.png)
 
 ## When in doubt, branch
@@ -201,16 +204,15 @@ graph LR
 
 [Repository Member List](https://docs.google.com/spreadsheets/d/1CeSnF2_6YMJgcZvYDCgYZqk-YINx1cSKkSkBgVSvkwI/edit?gid=0#gid=0)
 
-Everyone is a member of one of two repositories:
+Everyone is a member of this repository:
 
-  - [cookbook_a](https://github.com/fhdsl/cookbook_a)
-  - [cookbook_b](https://github.com/fhdsl/cookbook_a)
+  - [cookbook_summer_2025](https://github.com/fhdsl/cookbook_summer_2025)
 
 [Exercise: Add a Recipe](branching.html)
 
 ## Now comes the hard part
 
-- Integrating the changes
+- Integrating the changes from multiple branches
 
 
 ## Make a Pull Request
@@ -241,6 +243,7 @@ Everyone is a member of one of two repositories:
 ## Merging process
 
 - Manual review process
+  - May start a conversation about the pull request
   - May submit reviews
   - May submit approvals
   - May deny the pull request
@@ -263,18 +266,9 @@ Everyone is a member of one of two repositories:
   
 - Your version of the code is called a *fork* - it belongs to you
   - Like an external *branch*
-- Can submit your changes to the code through a pull request
+- Can submit your changes to the code through a *pull request* to the original repository:
 
-## Exercise: Make a fork and add a recipe
-
-- [Repository Member List](https://docs.google.com/spreadsheets/d/1CeSnF2_6YMJgcZvYDCgYZqk-YINx1cSKkSkBgVSvkwI/edit?gid=0#gid=0)
-- [Exercise: Make a Fork](forking.html)
-
-# Let's try a reviewing a Pull Request
-
-## Exercise: Review a Pull Request
-- [Repository Member List](https://docs.google.com/spreadsheets/d/1CeSnF2_6YMJgcZvYDCgYZqk-YINx1cSKkSkBgVSvkwI/edit?gid=0#gid=0)
-- [Reviewing a PR](reviewing.qmd)
+![](fork6-pr.jpg)
 
 ## Recap of What we did
 
@@ -283,8 +277,8 @@ Hopefully you will now be able to
 - **Explain** the reasons we use repositories
 - **Explain** how version control tracks changes in your work
 - **Make** a branch in a repository
-- **Make** a fork of a repository that you don't own
 - **Make** contributions to a repository using pull requests 
+- **Make** a fork of a repository that you don't own
 
 ## Resources
 
