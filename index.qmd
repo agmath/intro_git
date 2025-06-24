@@ -10,7 +10,7 @@ format:
 
 - Those who want a basic understanding of the version control process
 - Those who want to understand how open source collaboration works
-- Those who need to build a mental model
+- Those who need to build a mental model of Git
 
 . . .
 
