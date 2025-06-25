@@ -4,6 +4,7 @@ format:
   revealjs:
     link-external-newwindow: true
     incremental: true
+    footer: "https://github.com/fhdsl/cookbook_summer_2025"
 ---
 ## Introduce Yourself In Chat
 
