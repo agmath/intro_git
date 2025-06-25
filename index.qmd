@@ -5,6 +5,11 @@ format:
     link-external-newwindow: true
     incremental: true
 ---
+## Introduce Yourself In Chat
+
+- Your Name/Group/Pronouns
+- How did you spend Juneteenth weekend?
+- What you hope to learn today
 
 ## Who is this workshop for?
 
