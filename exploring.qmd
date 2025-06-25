@@ -14,3 +14,7 @@ B. Click on "History" in the Top Right Corner
 C. Click on one of the commits and look at changes
 
 ![](explore3.png)
+
+D. If you have time, click on "Issues" in the top tab and look at one of the issues:
+
+![](explore4.png)
