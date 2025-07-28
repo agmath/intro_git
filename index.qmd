@@ -4,15 +4,19 @@ format:
   revealjs:
     link-external-newwindow: true
     incremental: true
-    footer: "https://github.com/fhdsl/cookbook_summer_2025"
+    footer: "Thanks to Ted Laderas and the Fred Hutch Data Science Lab!"
 ---
 ## Introduce Yourself In Chat
 
-- Your Name/Group/Pronouns
-- How did you spend Juneteenth weekend?
-- What you hope to learn today
+- Your Name/Major/Location(?)/Pronouns
+- What's one interesting thing you did over the summer?
+- What do you hope to get out of the *BIG Problems* course?
 
-## Who is this workshop for?
+## Who is this introduction for?
+
+Hopefully everyone here, but especially
+
+. . .
 
 - Those who want a basic understanding of the version control process
 - Those who want to understand how open source collaboration works
@@ -27,7 +31,7 @@ Not for:
 
 ## Learning Objectives
 
-By the end of this workshop, you will be able to:
+By the end of this discussion, you will be able to:
 
 - **Explain** the reasons we use repositories
 - **Explain** how version control tracks changes in your work
@@ -37,14 +41,13 @@ By the end of this workshop, you will be able to:
 
 ## Reminder: Be gentle with yourself and others
 
-- [Participation Guidelines](https://hutchdatascience.org/communitystudios/guidelines/)
 - We are all learning together
 - We all learn at different paces
 - Asking questions is a way of taking care of others
 
 ## Our focus today is on concepts
 
-- Intermediate Git is much more about how you do it
+- You'll learn more of the details as you work with it
 
 ## Reproducibility and the Research Lifecycle
 
@@ -57,7 +60,7 @@ By the end of this workshop, you will be able to:
 ## Benefits of Storing your code in a Repo
 
 - Centralized code
-- Other people outside your lab can use it
+- Other people outside your group/lab can use it
 - The ability to roll back changes that broke your code
 - Recognition for your work
 - Supportive community that can help you learn and improve it
@@ -208,11 +211,9 @@ graph LR
 
 ## Exercise: Add a Recipe to our Cookbook Repository!
 
-[Repository Member List](https://docs.google.com/spreadsheets/d/1CeSnF2_6YMJgcZvYDCgYZqk-YINx1cSKkSkBgVSvkwI/edit?gid=0#gid=0)
-
 Everyone is a member of this repository:
 
-  - [cookbook_summer_2025](https://github.com/fhdsl/cookbook_summer_2025)
+  - [cookbook_BIG_problems](https://github.com/agmath/cookbook)
 
 [Exercise: Add a Recipe](branching.html)
 
