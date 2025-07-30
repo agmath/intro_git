@@ -4,8 +4,12 @@ format:
   revealjs:
     link-external-newwindow: true
     incremental: true
-    footer: "Thanks to Ted Laderas and the Fred Hutch Data Science Lab!"
 ---
+
+## Acknowledgement
+
+This slide deck has been very lightly adapted from one written by [Dr. Ted Laderas](https://laderast.github.io/) at the [Fred Hutch Data Science Lab](https://hutchdatascience.org/).
+
 ## Introduce Yourself
 
 - Your Name/Major/Location(?)/Pronouns
