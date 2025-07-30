@@ -6,7 +6,7 @@ format:
     incremental: true
     footer: "Thanks to Ted Laderas and the Fred Hutch Data Science Lab!"
 ---
-## Introduce Yourself In Chat
+## Introduce Yourself
 
 - Your Name/Major/Location(?)/Pronouns
 - What's one interesting thing you did over the summer?
