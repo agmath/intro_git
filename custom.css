@@ -1,0 +1,15 @@
+.reveal {
+  background-color: #f4f0ec;
+  color: #00244e;
+  font-family: 'Inter', sans-serif;
+  font-size: 28pt;
+}
+
+.reveal h1, .reveal h2 {
+  color: #00244e;
+  font-family: 'Inter', sans-serif;
+}
+
+.reveal pre, .reveal code {
+  font-family: 'Courier', monospace;
+}

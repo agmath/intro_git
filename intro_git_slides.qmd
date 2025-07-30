@@ -1,10 +1,19 @@
 ---
 title: "Learning Git and GitHub"
-format: 
+format:
   revealjs:
+    theme: default
+    logo: snhu_logo.png
+    logo-width: 200px
     link-external-newwindow: true
     incremental: true
+    css: custom.css
+    includes:
+      in-header: inter_font.html
 ---
+
+---
+
 
 ## Acknowledgement
 
@@ -153,14 +162,26 @@ Git only tracks what's changed between commits (called a **diff**):
 
 ## There is an intermediate step: staging
 
+:::::{.columns}
+
+::::{.column width="50%"}
+
 - Exists to bundle multiple changes to a single commit
 - Is hidden in the web interface
+
+::::
+
+::::{.column width="50%"}
 
 ![](staging.png)
 
 ::: aside
 <https://git-scm.com/about/staging-area>
 :::
+
+::::
+
+:::::
 
 ## Ways we work in a repository
 
