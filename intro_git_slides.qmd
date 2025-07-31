@@ -17,7 +17,7 @@ format:
 
 ## Acknowledgement
 
-This slide deck has been very lightly adapted from one written by [Dr. Ted Laderas](https://laderast.github.io/) at the [Fred Hutch Data Science Lab](https://hutchdatascience.org/).
+This slide deck has been **very** lightly adapted from one written by [Dr. Ted Laderas](https://laderast.github.io/) at the [Fred Hutch Data Science Lab](https://hutchdatascience.org/).
 
 ## Introduce Yourself
 
@@ -29,7 +29,6 @@ This slide deck has been very lightly adapted from one written by [Dr. Ted Lader
 
 Hopefully everyone here, but especially
 
-. . .
 
 - Those who want a basic understanding of the version control process
 - Those who want to understand how open source collaboration works
@@ -49,7 +48,6 @@ By the end of this discussion, you will be able to:
 - **Explain** the reasons we use repositories
 - **Explain** how version control tracks changes in your work
 - **Make** a branch in a repository
-- **Make** a fork of a repository that you don't own
 - **Make** contributions to a repository using pull requests 
 
 ## Reminder: Be gentle with yourself and others
@@ -60,7 +58,8 @@ By the end of this discussion, you will be able to:
 
 ## Our focus today is on concepts
 
-- You'll learn more of the details as you work with it
+- You'll learn more of the details as you work with git/GitHub
+- ...there's just no substitute to actually using it...
 
 ## Reproducibility and the Research Lifecycle
 
@@ -77,7 +76,6 @@ By the end of this discussion, you will be able to:
 - The ability to roll back changes that broke your code
 - Recognition for your work
 - Supportive community that can help you learn and improve it
-
 
 ## It's Tough being Open
 
